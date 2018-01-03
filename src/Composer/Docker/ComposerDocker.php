@@ -22,7 +22,7 @@ class ComposerDocker{
 
     private function execute($cmd, &$output=null, &$code=null){
         if($this->io->isDebug())
-            $this->log(sprintf("composer-docker: executing command:  '%s'",  $cmd));
+            $this->log(sprintf("executing command:  '%s'",  $cmd));
 
 
         $result = exec($cmd, $output, $code);
