@@ -14,15 +14,19 @@ Example `composer.json` (optional):
 {
   "extra": {
     "composer-docker":{
-      "tags":[ //defaults to none
+      "tags":[
         "tag1",
         "tag2"
       ],
-      "path": "path/to/dockerfile" //defualts to .
+      "path": "path/to/dockerfile"
     }
   }
 }
 ```
+
+### Options
+* tags - defaults to none
+* path - defaults to '.'
 
 Then run `composer docker` (add -vvv for debugging information)
 
