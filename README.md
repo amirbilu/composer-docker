@@ -6,19 +6,19 @@ Composer Docker is a simple plugin for building your project image.
 
 `composer require amirbilu/composer-docker`
 
-## Useage
+## Usage
 
-Example `composer.json`:
+Example `composer.json` (optional):
 
 ```json
 {
   "extra": {
     "composer-docker":{
-      "tags":[
+      "tags":[ //defaults to none
         "tag1",
         "tag2"
       ],
-      "path": "path/to/dockerfile"
+      "path": "path/to/dockerfile" //defualts to .
     }
   }
 }
