@@ -1,0 +1,21 @@
+{
+    "name": "amirbilu/composer-docker",
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "^1.1"
+    },
+    "authors": [
+        {
+            "name": "Amir Bilu",
+            "email": "amirbilu@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "AmirBilu\\": "src/"
+        }
+    },
+    "extra":{
+        "class": "AmirBilu\\Composer\\Docker\\Plugin"
+    }
+}
