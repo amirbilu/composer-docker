@@ -6,8 +6,6 @@ Composer Docker is a simple plugin for building your project image.
 
 `composer require amirbilu/composer-docker`
 
-## Usage
-
 Example `composer.json` (optional):
 
 ```json
@@ -28,7 +26,8 @@ Example `composer.json` (optional):
 * tags - defaults to none
 * path - defaults to '.'
 
-Then run `composer docker` (add -vvv for debugging information)
+## Usage
+Run `composer docker` (add -vvv for debugging information)
 
 A good practice would be to add the above to post-install-cmd hook:
 
